@@ -1,0 +1,189 @@
+{
+  "events": [
+    {
+      "title": "Grand Royal Wedding",
+      "description": "A magnificent wedding celebration at the Royal Palace.",
+      "categoryId": "1",
+      "category": "Wedding",
+      "price": 50000,
+      "location": "Hyderabad, Telangana",
+      "eventDate": "2026-06-15T18:00:00.000Z",
+      "capacity": 500,
+      "organizerId": "1",
+      "organizerName": "Elite Events",
+      "eventType": "full-service",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?w=800",
+      "id": "1"
+    },
+    {
+      "title": "Tech Conference 2026",
+      "description": "Annual technology conference featuring top industry leaders.",
+      "categoryId": "5",
+      "category": "Corporate",
+      "price": 1500,
+      "location": "Bangalore, Karnataka",
+      "eventDate": "2026-08-20T09:00:00.000Z",
+      "capacity": 1000,
+      "organizerId": "1",
+      "organizerName": "Tech Hub",
+      "eventType": "ticketed",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1505373633560-22160344fc2d?w=800",
+      "id": "2"
+    },
+    {
+      "title": "Summer Music Festival",
+      "description": "Experience the best of indie and rock music this summer.",
+      "categoryId": "3",
+      "category": "Concert",
+      "price": 2500,
+      "location": "Goa, India",
+      "eventDate": "2026-05-10T16:00:00.000Z",
+      "capacity": 5000,
+      "organizerId": "1",
+      "organizerName": "Goa Vibes",
+      "eventType": "ticketed",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1459749411177-042180ceea72?w=800",
+      "id": "3"
+    },
+    {
+      "title": "1st Birthday Bash",
+      "description": "Celebrating our little prince's first year with family and friends.",
+      "categoryId": "2",
+      "category": "Birthday",
+      "price": 15000,
+      "location": "Chennai, Tamil Nadu",
+      "eventDate": "2026-04-25T17:00:00.000Z",
+      "capacity": 100,
+      "organizerId": "1",
+      "organizerName": "Joyful Moments",
+      "eventType": "full-service",
+      "status": "upcoming",
+      "image": "https://images.unsplash.com/photo-1530103043960-ef38714abb15?w=800",
+      "id": "4"
+    }
+  ],
+  "users": [
+    {
+      "name": "System Admin",
+      "email": "admin@gmail.com",
+      "password": "admin@123",
+      "role": "admin",
+      "isApproved": true,
+      "createdAt": "2026-04-08T11:41:50.930Z",
+      "id": "1"
+    }
+  ],
+  "bookings": [],
+  "categories": [
+    {
+      "name": "Wedding",
+      "description": "Marriage ceremonies and receptions",
+      "id": "1"
+    },
+    {
+      "name": "Birthday",
+      "description": "Birthday parties and celebrations",
+      "id": "2"
+    },
+    {
+      "name": "Concert",
+      "description": "Music performances and live shows",
+      "id": "3"
+    },
+    {
+      "name": "Sports",
+      "description": "Athletic events and competitions",
+      "id": "4"
+    },
+    {
+      "name": "Corporate",
+      "description": "Business meetings and conferences",
+      "id": "5"
+    }
+  ],
+  "services": [
+    {
+      "name": "Royal Palace Theme",
+      "type": "Decoration",
+      "price": 8000,
+      "description": "Luxurious royal stage setup with flowers and lighting",
+      "image": "https://images.unsplash.com/photo-1519225421980-715cb0202128?w=800",
+      "merchantId": "1",
+      "id": "1",
+      "isActive": true
+    },
+    {
+      "name": "Floral Fantasy",
+      "type": "Decoration",
+      "price": 5000,
+      "description": "Modern floral decoration with elegant stage setup",
+      "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=800",
+      "merchantId": "1",
+      "id": "2",
+      "isActive": true
+    },
+    {
+      "name": "Premium Veg Buffet",
+      "type": "Catering",
+      "price": 250,
+      "description": "Full course veg menu with 2 starters, 3 main course, and 2 desserts",
+      "foodType": "Veg",
+      "merchantId": "1",
+      "id": "3",
+      "isActive": true
+    },
+    {
+      "name": "Royal Non-Veg Feast",
+      "type": "Catering",
+      "price": 450,
+      "description": "Exotic non-veg menu with symbols, biryani and royal desserts",
+      "foodType": "Non Veg",
+      "merchantId": "1",
+      "id": "4",
+      "isActive": true
+    },
+    {
+      "name": "Professional DJ",
+      "type": "Music",
+      "price": 10000,
+      "description": "Top-rated DJ with premium sound system and dance floor",
+      "image": "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=800",
+      "merchantId": "1",
+      "id": "5",
+      "isActive": true
+    },
+    {
+      "name": "Live Acoustic Band",
+      "type": "Music",
+      "price": 15000,
+      "description": "4-piece live band for a classy musical experience",
+      "image": "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800",
+      "merchantId": "1",
+      "id": "6",
+      "isActive": true
+    },
+    {
+      "name": "Ambient LED Lighting",
+      "type": "Lighting",
+      "price": 5000,
+      "description": "Dynamic LED wash lights and spotlighting for the entire venue",
+      "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800",
+      "merchantId": "1",
+      "id": "7",
+      "isActive": true
+    },
+    {
+      "name": "Grand Stage Lighting",
+      "type": "Lighting",
+      "price": 8000,
+      "description": "Professional stage lighting with smoke machine and moving heads",
+      "image": "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800",
+      "merchantId": "1",
+      "id": "8",
+      "isActive": true
+    }
+  ]
+}
